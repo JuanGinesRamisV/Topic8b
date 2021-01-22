@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/sportsImageDetail"
+            android:adjustViewBounds="true"/>
+        <TextView
+            android:id="@+id/titleDetail"
+            android:text="@string/title_placeholder"
+            style="@style/SportsTitle"/>
+        <TextView
+            android:id="@+id/newsTitleDetail"
+            android:text="@string/news_placeholder"
+            style="@style/SportsDetailText" />
+        <TextView
+            android:layout_below="@id/newsTitleDetail"
+            android:id="@+id/subTitle"
+            android:text="@string/lorem"
+            style="@style/SportsDetailText" />
+    </RelativeLayout>
+
+    </ScrollView>
